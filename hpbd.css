@@ -1,0 +1,179 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    margin-top: 0%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.post {
+    margin-top: 5px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(im2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.txt1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    opacity: 0.8;
+    color: whitesmoke;
+    margin-left: 10%;
+}
+
+.txt2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: italic;
+    opacity: 0.8;
+    color: whitesmoke;
+    margin-left: 10%;
+}
+
+.txt3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    text-align: right;
+    margin-right: 20%;
+    opacity: 0.8;
+    color: whitesmoke;
+}
+
+.aboutus {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: right;
+    margin-right: 10%;
+    opacity: 0.8;
+    color: whitesmoke;
+}
+
+.descript {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-style: italic;
+    text-align: right;
+    margin-left: 20%;
+    margin-right: 15%;
+    opacity: 0.8;
+    color: whitesmoke;
+}
+
+.loichuc1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: italic;
+    text-align: left;
+    margin-left: 10%;
+    opacity: 0.8;
+    color: whitesmoke;
+}
+
+.loichuc1v2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: italic;
+    text-align: right;
+    margin-right: 30%;
+    opacity: 0.8;
+    color: rgb(209, 196, 9);
+}
+
+.des2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    opacity: 0.8;
+    color: whitesmoke;
+}
+
+th {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: whitesmoke;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+.more {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    opacity: 0.8;
+    color: whitesmoke;
+}
+
+p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: black;
+    margin-bottom: 0;
+}
+
+.line {
+    text-align: center;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 800px) {
+    body .txt1 {
+        font-size: 45px;
+    }
+    body .txt2 {
+        font-size: 26px;
+    }
+    body .txt3 {
+        font-size: 22px;
+        margin-right: 5%;
+    }
+    body .aboutus {
+        font-size: 40px;
+        margin-right: 5%;
+    }
+    body .descript {
+        font-size: 20px;
+        margin-right: 5%;
+        margin-left: 10%;
+    }
+    body .loichuc1 {
+        font-size: 30px;
+        margin-left: 5%;
+    }
+    body .loichuc1v2 {
+        font-size: 35px;
+        margin-right: 30%;
+    }
+    body .des2 {
+        font-size: 35px;
+    }
+    th {
+        font-size: 20px;
+    }
+    body .more {
+        font-size: 35px;
+    }
+    body .post {
+        background-size: auto;
+        padding-top: 5px;
+        padding-bottom: 10%;
+    }
+    header {
+        background-size: auto;
+    }
+}
